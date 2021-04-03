@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-12-09 09:43:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+Our video prediction review (<a href="https://arxiv.org/abs/2004.05214" target="blank">preprint</a>) was accepted for publication in the TPAMI journal :tada: :tada:.
