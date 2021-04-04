@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: Passionate about Deep Learning applied to future video frame prediction.
 

@@ -334,6 +334,13 @@ footer.sticky-bottom {
       font-size: 1.5rem;
     }
   }
+  h2.type{
+    color: $blue-color-dark;
+    text-align: center;
+    border-bottom: 1px solid $grey-color-light;
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
   h2.year {
     color: $grey-color-light;
     border-top: 1px solid $grey-color-light;
