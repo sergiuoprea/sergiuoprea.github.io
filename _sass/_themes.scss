@@ -7,14 +7,14 @@
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #{$dark-cyan-color};
+  --global-hover-color: #{$dark-cyan-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-social-navbar-on-click-color: #{$blue-color-light};
-  --global-social-navbar-default-color: #{$blue-color-dark};
+  --global-navbar-on-click-color: #{$light-cyan-color};
+  --global-navbar-default-color: #{$dark-cyan-color};
 
   .fa-sun {
     display : none;
@@ -37,6 +37,8 @@ html[data-theme='dark'] {
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
+  --global-navbar-on-click-color: #{$light-cyan-color};
+  --global-navbar-default-color: #{$cyan-color};
 
   .fa-sun {
     padding-left: 10px;

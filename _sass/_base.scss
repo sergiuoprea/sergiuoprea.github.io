@@ -118,12 +118,12 @@ a, table.table a {
     font-size: 2.0rem;
     a {
       i::before {
-        color: var(--global-social-navbar-default-color);
+        color: var(--global-navbar-default-color);
         -webkit-transition: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
-          color: var(--global-social-navbar-on-click-color);
+          color: var(--global-navbar-on-click-color);
         }
       }
     }
