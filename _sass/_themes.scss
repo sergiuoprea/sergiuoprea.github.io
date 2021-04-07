@@ -13,7 +13,8 @@
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-social-icon-on-click-color: #{$light-purple-color};
+  --global-social-navbar-on-click-color: #{$blue-color-light};
+  --global-social-navbar-default-color: #{$blue-color-dark};
 
   .fa-sun {
     display : none;
