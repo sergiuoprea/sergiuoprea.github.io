@@ -12,8 +12,6 @@ An up-to-date list is available on [Google Scholar](https://scholar.google.es/ci
 
 {% capture counter_preprints %}{% bibliography_count --query @*[typ=preprint]* %}{% endcapture %}
 {% if counter_preprints != "0" %}
-
-## Preprints
   <h2 class="type">preprints</h2>
   {% bibliography -f papers -q @*[typ=preprint]* %}
 {% endif %}
