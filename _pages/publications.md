@@ -10,8 +10,13 @@ An up-to-date list is available on [Google Scholar](https://scholar.google.es/ci
 
 <div class="publications">
 
-<h2 class="type">manuscripts & preprints</h2>
-{% bibliography -f papers -q @*[typ=preprint]* %}
+{% capture counter_preprints %}{% bibliography_count --query @*[typ=preprint]* %}{% endcapture %}
+{% if counter_preprints != "0" %}
+
+## Preprints
+  <h2 class="type">preprints</h2>
+  {% bibliography -f papers -q @*[typ=preprint]* %}
+{% endif %}
 
 <h2 class="type">journal articles</h2>
 {% bibliography -f papers -q @*[typ=journal]* %}
