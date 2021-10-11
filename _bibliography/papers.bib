@@ -1,22 +1,39 @@
 % Encoding: UTF-8
 ---
 ---
+@InProceedings{MartinezGonzalez2021,
+  author    = {Martinez-Gonzalez, Pablo and Oprea, Sergiu and Castro-Vargas, John Alejandro and Garcia-Garcia, Alberto and Orts-Escolano, Sergio and Garcia-Rodriguez, Jose and Vincze, Markus},
+  booktitle = {2021 International Joint Conference on Neural Networks (IJCNN)},
+  title     = {UnrealROX+: An Improved Tool for Acquiring Synthetic Data from Virtual 3D Environments},
+  year      = {2021},
+  pages     = {1-8},
+  doi       = {10.1109/IJCNN52387.2021.9534447},
+  abbr      = {IJCNN},
+  abstract  = {Synthetic data generation has become essential in last years for feeding data-driven algorithms, which surpassed traditional techniques performance in almost every computer vision problem. Gathering and labelling the amount of data needed for these data-hungry models in the real world may become unfeasible and error-prone, while synthetic data give us the possibility of generating huge amounts of data with pixel-perfect annotations. However, most synthetic datasets lack from enough realism in their rendered images. In that context UnrealROX generation tool was presented in 2019, allowing to generate highly realistic data, at high resolutions and framerates, with an efficient pipeline based on Unreal Engine, a cutting-edge videogame engine. UnrealROX enabled robotic vision researchers to generate realistic and visually plausible data with full ground truth for a wide variety of problems such as class and instance semantic segmentation, object detection, depth estimation, visual grasping, and navigation. Nevertheless, its workflow was very tied to generate image sequences from a robotic on-board camera, making hard to generate data for other purposes. In this work, we present UnrealROX+, an improved version of UnrealROX where its decoupled and easy-to-use data acquisition system allows to quickly design and generate data in a much more flexible and customizable way. Moreover, it is packaged as an Unreal plug-in, which makes it more comfortable to use with already existing Unreal projects, and it also includes new features such as generating albedo or a Python API for interacting with the virtual environment from Deep Learning frameworks.},
+  url       = {http://arxiv.org/abs/2103.15017},
+  arxiv     = {2104.11776},
+  code      = {https://github.com/3dperceptionlab/unrealrox-plus},
+  selected  = {false},
+  img       = {unrealrox},
+  typ       = {conference}
+}
 
-@Article{Oprea2021,
+@InProceedings{Oprea2021,
   author    = {Sergiu Oprea and Giorgos Karvounas and Pablo Martinez-Gonzalez and Nikolaos Kyriazis and Sergio Orts-Escolano and Iason Oikonomidis and Alberto Garcia-Garcia and Aggeliki Tsoli and Jose Garcia-Rodriguez and Antonis Argyros},
-  journal   = {ArXiv},
+  booktitle = {2021 International Joint Conference on Neural Networks (IJCNN)},
   title     = {{H}-{GAN}: the power of {GAN}s in your {H}ands},
   year      = {2021},
-  volume    = {abs/2103.15017},
   abbr      = {IJCNN},
+  pages     = {1-8},
   abstract  = {We present HandGAN (H-GAN), a cycle-consistent adversarial learning approach implementing multi-scale perceptual discriminators. It is designed to translate synthetic images of hands to the real domain. Synthetic hands provide complete ground-truth annotations, yet they are not representative of the target distribution of real-world data. We strive to provide the perfect blend of a realistic hand appearance with synthetic annotations. Relying on image-to-image translation, we improve the appearance of synthetic hands to approximate the statistical distribution underlying a collection of real images of hands. H-GAN tackles not only cross-domain tone mapping but also structural differences in localized areas such as shading discontinuities. Results are evaluated on a qualitative and quantitative basis improving previous works. Furthermore, we successfully apply the generated images to the hand classification task.},
-  bibsource = {DBLP, http://dblp.uni-trier.de},
+  doi       = {10.1109/IJCNN52387.2021.9534144},
   url       = {http://arxiv.org/abs/2103.15017},
   arxiv     = {2103.15017},
   code      = {https://github.com/sergiuoprea/hgan},
+  demo      = {https://youtu.be/XP2CJC5tONY},
   selected  = {true},
   img       = {hgan},
-  typ       = {preprint}
+  typ       = {conference}
 }
 
 @Article{Oprea2020,
