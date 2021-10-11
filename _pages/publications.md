@@ -10,7 +10,7 @@ An up-to-date list is available on [Google Scholar](https://scholar.google.es/ci
 
 <div class="publications">
 
-{% capture counter_preprints %}{% bibliography_count --query @*[typ=preprint]* %}{% endcapture %}
+{% capture counter_preprints %}{% bibliography_count --query @Unpublished %}{% endcapture %}
 {% if counter_preprints != "0" %}
   <h2 class="type">preprints</h2>
   {% bibliography -f papers -q @*[typ=preprint]* %}
