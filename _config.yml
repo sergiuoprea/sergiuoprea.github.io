@@ -8,7 +8,7 @@ middle_name:
 last_name: Oprea
 email: soprea@dtic.ua.es
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD Student in Deep Learning and Computer Vision at University of Alicante.
+ Research Scientist in the CoreAI team at Meta
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
